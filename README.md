@@ -132,8 +132,6 @@ construye su índice con `python app.py index`. Si cambias las fuentes, regenera
 con `python scripts/prepare_knowledge.py` y vuelve a indexar. El programa detecta varias
 inconsistencias y evita consultar un índice desactualizado.
 
-Los pasos para subir la carpeta a un repositorio nuevo están en [PUBLICACION.md](PUBLICACION.md).
-
 ## Límites que deben acompañar la demostración
 
 El asistente reconoce algunas intenciones mediante reglas acotadas; no entiende universalmente
