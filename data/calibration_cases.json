@@ -1,0 +1,8 @@
+[
+  {"id":"cal_plazo","question":"¿Hasta qué día puedo pedir una devolución ordinaria?","answerable":true},
+  {"id":"cal_limpieza","question":"¿Puedo devolver detergente abierto por cambio de opinión?","answerable":true},
+  {"id":"cal_producto","question":"¿Qué categoría tiene el cepillo de bambú?","answerable":true},
+  {"id":"cal_pago","question":"¿Aceptan pagos con criptomonedas?","answerable":false},
+  {"id":"cal_garantia","question":"¿Cuántos años de garantía tiene el termo?","answerable":false},
+  {"id":"cal_horario","question":"¿A qué hora abre la tienda física de EcoMarket?","answerable":false}
+]

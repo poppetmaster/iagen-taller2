@@ -1,0 +1,134 @@
+[
+  {
+    "tracking_number": "EM-1001",
+    "product": "Botella reutilizable",
+    "category": "hogar_reutilizable",
+    "status": "En tránsito",
+    "delivered_at": null,
+    "estimated_delivery": "2026-09-25",
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1001"
+  },
+  {
+    "tracking_number": "EM-1002",
+    "product": "Jabón artesanal",
+    "category": "higiene",
+    "status": "Entregado",
+    "delivered_at": "2026-09-20",
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1002"
+  },
+  {
+    "tracking_number": "EM-1003",
+    "product": "Café orgánico",
+    "category": "perecedero",
+    "status": "Retrasado",
+    "delivered_at": null,
+    "estimated_delivery": "2026-09-26",
+    "delay_reason": "Demora registrada en el centro de distribución",
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1003"
+  },
+  {
+    "tracking_number": "EM-1004",
+    "product": "Bolsa de algodón",
+    "category": "textil",
+    "status": "Preparando envío",
+    "delivered_at": null,
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": null
+  },
+  {
+    "tracking_number": "EM-1005",
+    "product": "Cepillo de bambú",
+    "category": "higiene",
+    "status": "En tránsito",
+    "delivered_at": null,
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1005"
+  },
+  {
+    "tracking_number": "EM-1006",
+    "product": "Cuaderno reciclado",
+    "category": "papeleria",
+    "status": "Entregado",
+    "delivered_at": "2026-08-01",
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1006"
+  },
+  {
+    "tracking_number": "EM-1007",
+    "product": "Cubiertos reutilizables",
+    "category": "hogar_reutilizable",
+    "status": "En reparto",
+    "delivered_at": null,
+    "estimated_delivery": "2026-09-24",
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1007"
+  },
+  {
+    "tracking_number": "EM-1008",
+    "product": "Frutas deshidratadas",
+    "category": "perecedero",
+    "status": "Entregado",
+    "delivered_at": "2026-09-22",
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1008"
+  },
+  {
+    "tracking_number": "EM-1009",
+    "product": "Maceta biodegradable",
+    "category": "jardineria",
+    "status": "Retrasado",
+    "delivered_at": null,
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1009"
+  },
+  {
+    "tracking_number": "EM-1010",
+    "product": "Camiseta orgánica",
+    "category": "textil",
+    "status": "Entregado",
+    "delivered_at": "2026-09-15",
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1010"
+  },
+  {
+    "tracking_number": "EM-1011",
+    "product": "Detergente ecológico",
+    "category": "limpieza",
+    "status": "Entregado",
+    "delivered_at": "2026-09-22",
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": "https://tracking.example/EM-1011"
+  },
+  {
+    "tracking_number": "EM-1012",
+    "product": "Termo reutilizable",
+    "category": "hogar_reutilizable",
+    "status": "Cancelado",
+    "delivered_at": null,
+    "estimated_delivery": null,
+    "delay_reason": null,
+    "updated_at": "2026-09-24T09:00:00-05:00",
+    "tracking_url": null
+  }
+]

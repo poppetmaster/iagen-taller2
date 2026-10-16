@@ -1,0 +1,56 @@
+{
+  "policy_id": "ECOMARKET-DEMO-1",
+  "fictional": true,
+  "description": "Política ficticia académica; no representa asesoría legal ni una política comercial real.",
+  "return_window_days": 30,
+  "window_basis": "Días calendario desde entrega efectiva; día 30 incluido.",
+  "ordinary_excluded_categories": [
+    "perecedero"
+  ],
+  "human_review_reasons": [
+    "defecto",
+    "danado",
+    "equivocado"
+  ],
+  "conditions_by_category": {
+    "higiene": {
+      "opened": false,
+      "used": false,
+      "good_condition": true,
+      "packaging_ok": true
+    },
+    "limpieza": {
+      "opened": false,
+      "used": false,
+      "good_condition": true,
+      "packaging_ok": true
+    },
+    "textil": {
+      "used": false,
+      "good_condition": true,
+      "packaging_ok": true
+    },
+    "papeleria": {
+      "used": false,
+      "good_condition": true,
+      "packaging_ok": true
+    },
+    "hogar_reutilizable": {
+      "used": false,
+      "good_condition": true,
+      "packaging_ok": true
+    },
+    "jardineria": {
+      "used": false,
+      "good_condition": true,
+      "packaging_ok": true
+    }
+  },
+  "steps": [
+    "Confirmar fecha de entrega y condiciones.",
+    "Solicitar a soporte el inicio del trámite.",
+    "Conservar el producto, sus accesorios y empaque.",
+    "Esperar las instrucciones de soporte. No enviar paquetes ni asumir reembolso autorizado."
+  ],
+  "escalation": "Revisión humana ante reclamaciones especiales, categorías desconocidas o datos inconsistentes."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cal_plazo",
+    "answerable": true,
+    "maximum_similarity": 0.908298
+  },
+  {
+    "id": "cal_limpieza",
+    "answerable": true,
+    "maximum_similarity": 0.884382
+  },
+  {
+    "id": "cal_producto",
+    "answerable": true,
+    "maximum_similarity": 0.890814
+  },
+  {
+    "id": "cal_pago",
+    "answerable": false,
+    "maximum_similarity": 0.792662
+  },
+  {
+    "id": "cal_garantia",
+    "answerable": false,
+    "maximum_similarity": 0.856749
+  },
+  {
+    "id": "cal_horario",
+    "answerable": false,
+    "maximum_similarity": 0.849967
+  }
+]

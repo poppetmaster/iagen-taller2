@@ -1,0 +1,86 @@
+[
+  {
+    "id": "alcance",
+    "question": "¿La política de EcoMarket de este ejercicio es real?",
+    "answer": "Política ficticia académica; no representa asesoría legal ni una política comercial real.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "plazo",
+    "question": "¿Cuántos días tengo para devolver un producto?",
+    "answer": "La devolución ordinaria tiene un plazo de 30 días calendario desde la entrega efectiva. El último día está incluido. Si falta la fecha de entrega, debe confirmarse antes de decidir.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "exclusiones",
+    "question": "¿Se pueden devolver productos perecederos por cambio de opinión?",
+    "answer": "La política excluye de devolución ordinaria estas categorías: perecedero. Esta exclusión no sustituye la revisión de una reclamación especial.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "reclamaciones",
+    "question": "¿Qué hago si recibo un producto defectuoso, dañado o equivocado?",
+    "answer": "Los motivos que requieren revisión humana son: defecto, danado, equivocado. Las reclamaciones por defecto, daño o producto equivocado se revisan antes de aplicar las exclusiones de devolución ordinaria.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "condiciones_higiene",
+    "question": "¿Qué condiciones exige la devolución de la categoría higiene?",
+    "answer": "Para la categoría higiene, el producto debe estar sin abrir, sin uso, en buen estado, con empaque en condiciones. También debe cumplir el plazo de devolución. Si una condición no se conoce, se solicita el dato; no se presume su cumplimiento.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "condiciones_limpieza",
+    "question": "¿Qué condiciones exige la devolución de la categoría limpieza?",
+    "answer": "Para la categoría limpieza, el producto debe estar sin abrir, sin uso, en buen estado, con empaque en condiciones. También debe cumplir el plazo de devolución. Si una condición no se conoce, se solicita el dato; no se presume su cumplimiento.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "condiciones_textil",
+    "question": "¿Qué condiciones exige la devolución de la categoría textil?",
+    "answer": "Para la categoría textil, el producto debe estar sin uso, en buen estado, con empaque en condiciones. También debe cumplir el plazo de devolución. Si una condición no se conoce, se solicita el dato; no se presume su cumplimiento.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "condiciones_papeleria",
+    "question": "¿Qué condiciones exige la devolución de la categoría papeleria?",
+    "answer": "Para la categoría papeleria, el producto debe estar sin uso, en buen estado, con empaque en condiciones. También debe cumplir el plazo de devolución. Si una condición no se conoce, se solicita el dato; no se presume su cumplimiento.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "condiciones_hogar_reutilizable",
+    "question": "¿Qué condiciones exige la devolución de la categoría hogar_reutilizable?",
+    "answer": "Para la categoría hogar_reutilizable, el producto debe estar sin uso, en buen estado, con empaque en condiciones. También debe cumplir el plazo de devolución. Si una condición no se conoce, se solicita el dato; no se presume su cumplimiento.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "condiciones_jardineria",
+    "question": "¿Qué condiciones exige la devolución de la categoría jardineria?",
+    "answer": "Para la categoría jardineria, el producto debe estar sin uso, en buen estado, con empaque en condiciones. También debe cumplir el plazo de devolución. Si una condición no se conoce, se solicita el dato; no se presume su cumplimiento.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "procedimiento",
+    "question": "¿Cómo inicio el trámite de devolución?",
+    "answer": "Confirmar fecha de entrega y condiciones. Solicitar a soporte el inicio del trámite. Conservar el producto, sus accesorios y empaque. Esperar las instrucciones de soporte. No enviar paquetes ni asumir reembolso autorizado.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  },
+  {
+    "id": "revision",
+    "question": "¿Cuándo debo solicitar revisión humana?",
+    "answer": "Revisión humana ante reclamaciones especiales, categorías desconocidas o datos inconsistentes.",
+    "source": "data/return_policy.json",
+    "policy_id": "ECOMARKET-DEMO-1"
+  }
+]

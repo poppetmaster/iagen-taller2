@@ -1,0 +1,39 @@
+{
+  "reference": "https://github.com/poppetmaster/iagen-taller1",
+  "basis": "Copia local del entregable aportada por el usuario; no se certifica equivalencia con la versión remota actual.",
+  "files": {
+    "data/orders.json": {
+      "sha256": "ddb987f518fddac65f5675045db7f469b61258ada53d1e7cc35b7b1426b9cb9e",
+      "unchanged": true
+    },
+    "data/return_policy.json": {
+      "sha256": "a526b719c9570c7f62180ceb9ff4902f58b8f884eb6aabbe1ed0f7c36e8cb9ca",
+      "unchanged": true
+    },
+    "data/evaluation_cases.json": {
+      "sha256": "157c18d98ea4476cde756fa6abd3f15ade39a005b1a3f3ef2aab5049e4fc814e",
+      "unchanged": true
+    },
+    "ecomarket/domain.py": {
+      "sha256": "cc817969f87b0bdb76a214e4d5a7bf436cfc8d9a9f50371883191e41fc0e65ec",
+      "unchanged": true
+    },
+    "ecomarket/llm.py": {
+      "sha256": "b0d051ea903258805670bf4c866de9c9e6828bc8ea0438737d44e48413977e1d",
+      "unchanged": true
+    },
+    "ecomarket/prompts.py": {
+      "sha256": "f42f09e027745eb8e462844872862ed8ffec25c22945763aa3e9eb2fca23f24d",
+      "unchanged": true
+    },
+    "ecomarket/validation.py": {
+      "sha256": "4b5ebd1e974e4db1b7b2d4753c119ad4c4437372b68b5cfdd10595e476b36040",
+      "unchanged": true
+    }
+  },
+  "renamed_files": {
+    "app.py": "app_legacy.py",
+    "evaluate.py": "evaluate_legacy.py"
+  },
+  "test_adaptation": "Los nombres de importación de app y evaluate se ajustaron a sus nombres legacy en tests/test_legacy.py."
+}

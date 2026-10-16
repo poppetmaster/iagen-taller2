@@ -1,0 +1,75 @@
+test_cancelled (test_legacy.DomainTests.test_cancelled) ... ok
+test_case_oracles (test_legacy.DomainTests.test_case_oracles) ... ok
+test_dataset_twelve_unique_orders (test_legacy.DomainTests.test_dataset_twelve_unique_orders) ... ok
+test_day_30_allowed (test_legacy.DomainTests.test_day_30_allowed) ... ok
+test_day_31_rejected (test_legacy.DomainTests.test_day_31_rejected) ... ok
+test_eligible_textile (test_legacy.DomainTests.test_eligible_textile) ... ok
+test_expired (test_legacy.DomainTests.test_expired) ... ok
+test_future_delivery (test_legacy.DomainTests.test_future_delivery) ... ok
+test_invalid_date (test_legacy.DomainTests.test_invalid_date) ... ok
+test_lookup_normalizes (test_legacy.DomainTests.test_lookup_normalizes) ... ok
+test_missing_condition (test_legacy.DomainTests.test_missing_condition) ... ok
+test_missing_delay_reason (test_legacy.DomainTests.test_missing_delay_reason) ... ok
+test_missing_delivery_date (test_legacy.DomainTests.test_missing_delivery_date) ... ok
+test_missing_estimate (test_legacy.DomainTests.test_missing_estimate) ... ok
+test_missing_order (test_legacy.DomainTests.test_missing_order) ... ok
+test_not_delivered (test_legacy.DomainTests.test_not_delivered) ... ok
+test_open_cleaning (test_legacy.DomainTests.test_open_cleaning) ... ok
+test_open_hygiene (test_legacy.DomainTests.test_open_hygiene) ... ok
+test_perishable_defect_human (test_legacy.DomainTests.test_perishable_defect_human) ... ok
+test_perishable_ordinary_excluded (test_legacy.DomainTests.test_perishable_ordinary_excluded) ... ok
+test_unknown_category (test_legacy.DomainTests.test_unknown_category) ... ok
+test_unknown_sealed_is_not_false (test_legacy.DomainTests.test_unknown_sealed_is_not_false) ... ok
+test_used_textile (test_legacy.DomainTests.test_used_textile) ... ok
+test_empty_llm_response (test_legacy.IntegrationTests.test_empty_llm_response) ... ok
+test_evaluator_does_not_create_evidence_without_model (test_legacy.IntegrationTests.test_evaluator_does_not_create_evidence_without_model) ... ok
+test_evaluator_records_mocked_runs_and_blank_human_review (test_legacy.IntegrationTests.test_evaluator_records_mocked_runs_and_blank_human_review) ... ok
+test_invalid_llm_output_not_displayed (test_legacy.IntegrationTests.test_invalid_llm_output_not_displayed) ... ok
+test_llm_payload_with_mock_not_actual_inference (test_legacy.IntegrationTests.test_llm_payload_with_mock_not_actual_inference) ... ok
+test_model_failure_not_hidden (test_legacy.IntegrationTests.test_model_failure_not_hidden) ... ok
+test_rules_cli (test_legacy.IntegrationTests.test_rules_cli) ... ok
+test_empty_message (test_legacy.PromptValidationTests.test_empty_message) ... ok
+test_free_text_semantics_not_certified (test_legacy.PromptValidationTests.test_free_text_semantics_not_certified) ... ok
+test_full_document_in_context (test_legacy.PromptValidationTests.test_full_document_in_context) ... ok
+test_invalid_json (test_legacy.PromptValidationTests.test_invalid_json) ... ok
+test_invented_url (test_legacy.PromptValidationTests.test_invented_url) ... ok
+test_other_order (test_legacy.PromptValidationTests.test_other_order) ... ok
+test_same_context_both_variants (test_legacy.PromptValidationTests.test_same_context_both_variants) ... ok
+test_single_context (test_legacy.PromptValidationTests.test_single_context) ... ok
+test_valid_response (test_legacy.PromptValidationTests.test_valid_response) ... ok
+test_wrong_facts (test_legacy.PromptValidationTests.test_wrong_facts) ... ok
+test_action_claim_is_rejected (test_rag.ContractTests.test_action_claim_is_rejected) ... ok
+test_changed_facts_are_rejected (test_rag.ContractTests.test_changed_facts_are_rejected) ... ok
+test_citation_type_is_validated (test_rag.ContractTests.test_citation_type_is_validated) ... ok
+test_markdown_url_is_not_a_false_positive (test_rag.ContractTests.test_markdown_url_is_not_a_false_positive) ... ok
+test_markdown_url_label_can_be_the_url_itself (test_rag.ContractTests.test_markdown_url_label_can_be_the_url_itself) ... ok
+test_no_context_requires_abstention (test_rag.ContractTests.test_no_context_requires_abstention) ... ok
+test_other_order_is_rejected (test_rag.ContractTests.test_other_order_is_rejected) ... ok
+test_simulated_link_requires_an_explicit_label (test_rag.ContractTests.test_simulated_link_requires_an_explicit_label) ... ok
+test_type_and_json_errors_are_visible (test_rag.ContractTests.test_type_and_json_errors_are_visible) ... ok
+test_unknown_citation_and_missing_citation (test_rag.ContractTests.test_unknown_citation_and_missing_citation) ... ok
+test_valid_citation_contract (test_rag.ContractTests.test_valid_citation_contract) ... ok
+test_valid_format_does_not_certify_semantics (test_rag.ContractTests.test_valid_format_does_not_certify_semantics) ... ok
+test_derived_documents_match_canonical_sources (test_rag.DocumentTests.test_derived_documents_match_canonical_sources) ... ok
+test_embedding_config_changes_fingerprint (test_rag.DocumentTests.test_embedding_config_changes_fingerprint) ... ok
+test_long_structured_record_is_not_silently_truncated (test_rag.DocumentTests.test_long_structured_record_is_not_silently_truncated) ... ok
+test_missing_index_has_actionable_error (test_rag.DocumentTests.test_missing_index_has_actionable_error) ... /private/tmp/ecomarket-taller2-venv/lib/python3.14/site-packages/chromadb/telemetry/opentelemetry/__init__.py:128: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead
+  if asyncio.iscoroutinefunction(f):
+ok
+test_persistent_index_and_stale_detection (test_rag.DocumentTests.test_persistent_index_and_stale_detection) ... ok
+test_structured_records_remain_whole (test_rag.DocumentTests.test_structured_records_remain_whole) ... ok
+test_three_document_kinds_and_no_orders (test_rag.DocumentTests.test_three_document_kinds_and_no_orders) ... ok
+test_clarification_needs_no_model_call (test_rag.FlowTests.test_clarification_needs_no_model_call) ... ok
+test_exact_order_context_does_not_include_all_orders (test_rag.FlowTests.test_exact_order_context_does_not_include_all_orders) ... ok
+test_failed_model_is_not_replaced_by_fake_generation (test_rag.FlowTests.test_failed_model_is_not_replaced_by_fake_generation) ... ok
+test_invalid_generation_is_withheld (test_rag.FlowTests.test_invalid_generation_is_withheld) ... ok
+test_without_rag_calls_model_with_no_documents (test_rag.FlowTests.test_without_rag_calls_model_with_no_documents) ... ok
+test_exact_order (test_rag.RoutingTests.test_exact_order) ... ok
+test_multi_order_and_actions_are_stopped (test_rag.RoutingTests.test_multi_order_and_actions_are_stopped) ... ok
+test_return_and_documental_policy_are_distinct (test_rag.RoutingTests.test_return_and_documental_policy_are_distinct) ... ok
+test_unknown_tracking_requests_clarification (test_rag.RoutingTests.test_unknown_tracking_requests_clarification) ... ok
+
+----------------------------------------------------------------------
+Ran 68 tests in 0.903s
+
+OK

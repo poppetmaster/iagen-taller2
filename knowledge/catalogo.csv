@@ -1,0 +1,13 @@
+product,category,source,fictional
+Bolsa de algodón,textil,data/orders.json,true
+Botella reutilizable,hogar_reutilizable,data/orders.json,true
+Café orgánico,perecedero,data/orders.json,true
+Camiseta orgánica,textil,data/orders.json,true
+Cepillo de bambú,higiene,data/orders.json,true
+Cuaderno reciclado,papeleria,data/orders.json,true
+Cubiertos reutilizables,hogar_reutilizable,data/orders.json,true
+Detergente ecológico,limpieza,data/orders.json,true
+Frutas deshidratadas,perecedero,data/orders.json,true
+Jabón artesanal,higiene,data/orders.json,true
+Maceta biodegradable,jardineria,data/orders.json,true
+Termo reutilizable,hogar_reutilizable,data/orders.json,true

@@ -1,0 +1,14 @@
+{
+  "model": "qwen2.5:7b",
+  "ollama_url": "http://127.0.0.1:11434",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "chunk_tokens": 360,
+  "chunk_overlap": 50,
+  "top_k": 4,
+  "minimum_similarity": null,
+  "temperature": 0.2,
+  "seed": 42,
+  "num_ctx": 8192,
+  "num_predict": 1000
+}

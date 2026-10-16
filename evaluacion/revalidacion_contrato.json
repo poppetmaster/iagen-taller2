@@ -1,0 +1,173 @@
+{
+  "note": "Revalidación de las 24 salidas guardadas con el validador final; no son nuevas inferencias.",
+  "results": [
+    {
+      "case_id": "plazo",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "plazo",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "higiene",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "higiene",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "perecedero",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "perecedero",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "defecto",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "defecto",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "procedimiento",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "procedimiento",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "maceta",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "maceta",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "cuaderno",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "cuaderno",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "precio_ausente",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "precio_ausente",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "stock_ausente",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "stock_ausente",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "envios_ausentes",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "envios_ausentes",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "fuera_de_alcance",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "fuera_de_alcance",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "inyeccion_documental",
+      "variant": "without_rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    },
+    {
+      "case_id": "inyeccion_documental",
+      "variant": "rag",
+      "passed": true,
+      "errors": [],
+      "same_as_original": true
+    }
+  ]
+}

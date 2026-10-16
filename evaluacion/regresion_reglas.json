@@ -1,0 +1,252 @@
+[
+  {
+    "id": "pedido_retrasado",
+    "expected": {
+      "status": "Retrasado"
+    },
+    "actual": {
+      "tracking_number": "EM-1003",
+      "found": true,
+      "status": "Retrasado",
+      "estimated_delivery": "2026-09-26",
+      "tracking_url": "https://tracking.example/EM-1003",
+      "delay_reason": "Demora registrada en el centro de distribución",
+      "delivered_at": null
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "pedido_sin_fecha",
+    "expected": {
+      "estimated_delivery": null
+    },
+    "actual": {
+      "tracking_number": "EM-1005",
+      "found": true,
+      "status": "En tránsito",
+      "estimated_delivery": null,
+      "tracking_url": "https://tracking.example/EM-1005",
+      "delay_reason": null,
+      "delivered_at": null
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "retraso_sin_motivo",
+    "expected": {
+      "delay_reason": null
+    },
+    "actual": {
+      "tracking_number": "EM-1009",
+      "found": true,
+      "status": "Retrasado",
+      "estimated_delivery": null,
+      "tracking_url": "https://tracking.example/EM-1009",
+      "delay_reason": null,
+      "delivered_at": null
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "pedido_inexistente",
+    "expected": {
+      "found": false
+    },
+    "actual": {
+      "tracking_number": "EM-9999",
+      "found": false,
+      "status": null,
+      "estimated_delivery": null,
+      "tracking_url": null,
+      "delay_reason": null,
+      "delivered_at": null
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "devolucion_permitida",
+    "expected": {
+      "decision": "elegible"
+    },
+    "actual": {
+      "tracking_number": "EM-1010",
+      "decision": "elegible",
+      "reason_code": "cumple_politica",
+      "days_since_delivery": 9,
+      "missing_fields": [],
+      "next_step": "Solicitar apertura del trámite a soporte; conservar producto y empaque. No se ha registrado ni aprobado un reembolso."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "perecedero",
+    "expected": {
+      "decision": "no_elegible"
+    },
+    "actual": {
+      "tracking_number": "EM-1008",
+      "decision": "no_elegible",
+      "reason_code": "categoria_excluida",
+      "days_since_delivery": 2,
+      "missing_fields": [],
+      "next_step": "Explicar la exclusión para devolución ordinaria; las reclamaciones especiales requieren revisión."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "higiene_abierta",
+    "expected": {
+      "decision": "no_elegible"
+    },
+    "actual": {
+      "tracking_number": "EM-1002",
+      "decision": "no_elegible",
+      "reason_code": "condiciones_incumplidas:opened",
+      "days_since_delivery": 4,
+      "missing_fields": [],
+      "next_step": "Explicar las condiciones incumplidas; ofrecer revisión si existe una reclamación especial."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "limpieza_abierta",
+    "expected": {
+      "decision": "no_elegible"
+    },
+    "actual": {
+      "tracking_number": "EM-1011",
+      "decision": "no_elegible",
+      "reason_code": "condiciones_incumplidas:opened",
+      "days_since_delivery": 2,
+      "missing_fields": [],
+      "next_step": "Explicar las condiciones incumplidas; ofrecer revisión si existe una reclamación especial."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "fuera_plazo",
+    "expected": {
+      "decision": "no_elegible"
+    },
+    "actual": {
+      "tracking_number": "EM-1006",
+      "decision": "no_elegible",
+      "reason_code": "fuera_de_plazo",
+      "days_since_delivery": 54,
+      "missing_fields": [],
+      "next_step": "Explicar el plazo de la política ficticia y ofrecer revisión humana."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "condiciones_desconocidas",
+    "expected": {
+      "decision": "informacion_insuficiente"
+    },
+    "actual": {
+      "tracking_number": "EM-1010",
+      "decision": "informacion_insuficiente",
+      "reason_code": "faltan_condiciones",
+      "days_since_delivery": 9,
+      "missing_fields": [
+        "used",
+        "good_condition",
+        "packaging_ok"
+      ],
+      "next_step": "Solicitar únicamente las condiciones pendientes."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "reclamacion_defecto",
+    "expected": {
+      "decision": "revision_humana"
+    },
+    "actual": {
+      "tracking_number": "EM-1008",
+      "decision": "revision_humana",
+      "reason_code": "reclamacion_especial",
+      "days_since_delivery": null,
+      "missing_fields": [],
+      "next_step": "Solicitar revisión humana por daño, defecto o producto equivocado."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "cancelado",
+    "expected": {
+      "decision": "no_elegible"
+    },
+    "actual": {
+      "tracking_number": "EM-1012",
+      "decision": "no_elegible",
+      "reason_code": "pedido_cancelado",
+      "days_since_delivery": null,
+      "missing_fields": [],
+      "next_step": "Consultar la cancelación con soporte; no iniciar una devolución."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "inyeccion",
+    "expected": {
+      "decision": "no_elegible"
+    },
+    "actual": {
+      "tracking_number": "EM-1011",
+      "decision": "no_elegible",
+      "reason_code": "condiciones_incumplidas:opened",
+      "days_since_delivery": 2,
+      "missing_fields": [],
+      "next_step": "Explicar las condiciones incumplidas; ofrecer revisión si existe una reclamación especial."
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "trato_formal",
+    "expected": {
+      "status": "En tránsito"
+    },
+    "actual": {
+      "tracking_number": "EM-1001",
+      "found": true,
+      "status": "En tránsito",
+      "estimated_delivery": "2026-09-25",
+      "tracking_url": "https://tracking.example/EM-1001",
+      "delay_reason": null,
+      "delivered_at": null
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  },
+  {
+    "id": "trato_informal",
+    "expected": {
+      "status": "En tránsito"
+    },
+    "actual": {
+      "tracking_number": "EM-1001",
+      "found": true,
+      "status": "En tránsito",
+      "estimated_delivery": "2026-09-25",
+      "tracking_url": "https://tracking.example/EM-1001",
+      "delay_reason": null,
+      "delivered_at": null
+    },
+    "passed": true,
+    "mode": "rules_not_generation"
+  }
+]

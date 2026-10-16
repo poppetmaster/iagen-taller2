@@ -1,0 +1,13 @@
+{
+  "origin": "https://github.com/poppetmaster/iagen-taller1",
+  "policy_id": "ECOMARKET-DEMO-1",
+  "note": "Tres representaciones documentales derivadas de dos fuentes académicas; no son fuentes independientes.",
+  "sha256": {
+    "data/orders.json": "ddb987f518fddac65f5675045db7f469b61258ada53d1e7cc35b7b1426b9cb9e",
+    "data/return_policy.json": "a526b719c9570c7f62180ceb9ff4902f58b8f884eb6aabbe1ed0f7c36e8cb9ca",
+    "scripts/prepare_knowledge.py": "5313fbb633ff5184869133d7f0f97a56923d200fa6051849b0bb7a6bff1bdd72",
+    "knowledge/politica_devoluciones.pdf": "fd1693df472a8a7021f70d4db277743d61b2b1881a3ea1224e31eef8d04b31be",
+    "knowledge/catalogo.csv": "21e8b94300b2896aff99142a5802b81e74c5d3c3b2f0e5b26e30bed728a453ad",
+    "knowledge/faq.json": "903c391d4b69c4c762a06d8367fb953b8ac7f2a07c6741974b5804e6557c5251"
+  }
+}
